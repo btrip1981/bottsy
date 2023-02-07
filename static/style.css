@@ -1,0 +1,28 @@
+#chat-display {
+  width: 500px;
+  height: 400px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#chat-form {
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+#chat-input {
+  flex: 1;
+  height: 30px;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  height: 30px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
